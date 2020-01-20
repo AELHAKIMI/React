@@ -1,8 +1,10 @@
 import React from "react";
 //import logo from './logo.svg';
 import "./App.css";
-import PureComp from "./PureComp";
-import ParentComp from "./components/ParentComp";
+import RefsDemo from "./components/RefsDemo";
+import FocusInput from "./components/FocusInput";
+// import PureComp from "./PureComp";
+// import ParentComp from "./components/ParentComp";
 // import UserGreeting from "./components/UserGreeting";
 // import Form from "./components/Form";
 // import Table from "./components/Table";
@@ -19,7 +21,7 @@ import ParentComp from "./components/ParentComp";
 function App() {
   return (
     <div className="App">
-        <ParentComp />
+        <FocusInput />
     </div>
   );
 }
